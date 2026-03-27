@@ -22,6 +22,8 @@ app.use(
     origin: [
       process.env.PUBLIC_FRONTEND_URL || "http://localhost:3000",
       process.env.ADMIN_FRONTEND_URL || "http://localhost:3001",
+      "https://lionista-admin.vercel.app",
+      "https://lionista-frontend.vercel.app",
     ],
     credentials: true,
   }),
